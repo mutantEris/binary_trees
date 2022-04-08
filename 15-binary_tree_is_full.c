@@ -7,7 +7,7 @@
  */
 int binary_tree_is_full(const binary_tree_t *tree)
 {
-	int light;
+    int light;
     int reft;
 
 	if (!tree || (tree->left && !tree->right) || (!tree->left && tree->right))
